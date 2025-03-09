@@ -1,0 +1,45 @@
+17:41:39.553 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:41:39.557 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:41:39.566 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:41:39.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:41:39.578 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:41:39.582 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:41:39.672 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:41:39.721 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:41:39.723 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:41:39.726 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:41:39.759 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:41:39.799 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:41:39.801 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:41:39.808 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:41:39.837 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:41:39.883 [main] INFO  testCases.TC_003_LoginDDT - **** Starting TC_003_LoginDDT *****
+17:41:42.298 [main] INFO  testCases.TC_003_LoginDDT - **** Finished TC_003_LoginDDT *****
+17:41:42.305 [main] INFO  testCases.TC_003_LoginDDT - **** Starting TC_003_LoginDDT *****
+17:41:44.486 [main] INFO  testCases.TC_003_LoginDDT - **** Starting TC_003_LoginDDT *****
+17:41:46.834 [main] INFO  testCases.TC_003_LoginDDT - **** Starting TC_003_LoginDDT *****
+17:41:58.440 [main] INFO  testCases.TC_003_LoginDDT - **** Finished TC_003_LoginDDT *****
+17:41:58.446 [main] INFO  testCases.TC_003_LoginDDT - **** Starting TC_003_LoginDDT *****
+17:42:00.773 [main] INFO  testCases.TC_003_LoginDDT - **** Finished TC_003_LoginDDT *****
+17:42:14.432 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting TC_001_AccountRegistrationTest ****
+17:42:15.233 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link
+17:42:15.907 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
+17:42:15.910 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Details....
+17:42:17.738 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating excepted message....
+17:42:17.886 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Finished TC_001_AccountRegistrationTest ****
+17:42:21.447 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_002_LoginTest ****
+17:42:22.220 [main] INFO  testCases.TC_002_LoginTest - Clicked on MyAccount Link
+17:42:22.714 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Link
+17:42:23.810 [main] INFO  testCases.TC_002_LoginTest - Logged in Successfully
+17:42:23.885 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest ****
+19:46:51.832 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Starting TC_001_AccountRegistrationTest ****
+19:46:51.991 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount Link
+19:46:52.445 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register Link
+19:46:52.448 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Details....
+19:46:53.825 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating excepted message....
+19:46:53.869 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** Finished TC_001_AccountRegistrationTest ****
+19:46:57.462 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_002_LoginTest ****
+19:46:57.583 [main] INFO  testCases.TC_002_LoginTest - Clicked on MyAccount Link
+19:46:57.873 [main] INFO  testCases.TC_002_LoginTest - Clicked on Login Link
+19:46:58.743 [main] INFO  testCases.TC_002_LoginTest - Logged in Successfully
+19:46:58.789 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest ****
