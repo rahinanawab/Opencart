@@ -1,2 +1,2 @@
-C:\Users\Public\Rahina\IdeaProjects\Opencart
+cd "C:\Users\Public\Rahina\IdeaProjects\Opencart"
 mvn test
