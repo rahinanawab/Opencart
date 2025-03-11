@@ -44,34 +44,34 @@ public class BaseClass {
         logger= LogManager.getLogger(this.getClass());
 
         //for remote
-        if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
-        {
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            //os
-            if (os.equalsIgnoreCase("windows"))
-            {
-                capabilities.setPlatform(Platform.WIN11);
-            }
-            else if (os.equalsIgnoreCase("mac")){
-                capabilities.setPlatform(Platform.MAC);
-            }
-            else {
-                System.out.println("No matching os");
-                return;
-            }
-            //browser
-            switch(br.toLowerCase()){
-                case "chrome": capabilities.setBrowserName("chrome");
-                break;
-                case "edge": capabilities.setBrowserName("MicrosoftEdge");
-                break;
-                case "firefox": capabilities.setBrowserName("firefox");
-                break;
-                default: System.out.println("no matching browser");
-                return;
-            }
-            driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
-        }
+//        if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
+//        {
+//            DesiredCapabilities capabilities = new DesiredCapabilities();
+//            //os
+//            if (os.equalsIgnoreCase("windows"))
+//            {
+//                capabilities.setPlatform(Platform.WIN11);
+//            }
+//            else if (os.equalsIgnoreCase("mac")){
+//                capabilities.setPlatform(Platform.MAC);
+//            }
+//            else {
+//                System.out.println("No matching os");
+//                return;
+//            }
+//            //browser
+//            switch(br.toLowerCase()){
+//                case "chrome": capabilities.setBrowserName("chrome");
+//                break;
+//                case "edge": capabilities.setBrowserName("MicrosoftEdge");
+//                break;
+//                case "firefox": capabilities.setBrowserName("firefox");
+//                break;
+//                default: System.out.println("no matching browser");
+//                return;
+//            }
+//            driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+//        }
         //for local
         if(p.getProperty("execution_env").equalsIgnoreCase("local")){
             switch (br.toLowerCase()){
