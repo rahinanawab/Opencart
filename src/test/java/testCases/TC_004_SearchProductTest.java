@@ -14,18 +14,19 @@ public class TC_004_SearchProductTest extends BaseClass {
 		logger.info(" Starting TC_004_SearchProductTest ");
 
 		try {
-			
-			HomePage hm=new HomePage(driver);
-			
-			//hm.enterProductName("iPhone");
-			hm.enterProductName("mac");
-			
-			hm.clickSearch();
-			
-			SearchPage sp=new SearchPage(driver);
-			sp.isProductExist("MacBook");
 
-			Assert.assertEquals(sp.isProductExist("MacBook"),true);
+			HomePage hm=new HomePage(driver);
+
+			//hm.enterProductName("iPhone");
+			//hm.enterProductName("mac");
+			hm.enterProductName("HP LP3065");
+
+			hm.clickSearch();
+
+			SearchPage sp=new SearchPage(driver);
+			sp.isProductExist("HP LP3065");
+
+			Assert.assertEquals(sp.isProductExist("HP LP3065"),true);
 
 		} catch (Exception e) {
 			Assert.fail();

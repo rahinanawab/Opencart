@@ -1,8 +1,12 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver) {
@@ -23,6 +27,9 @@ public class LoginPage extends BasePage {
         txtPassword.sendKeys(pwd);
     }
     public void clickLogin() {
-        btnLogin.click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        JavascriptExecutor js=(JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", btnLogin);
+
     }
 }

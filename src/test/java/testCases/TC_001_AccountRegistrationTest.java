@@ -49,6 +49,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 		catch (Exception e){
 			Assert.fail();
 		}
+
 		logger.info("**** Finished TC_001_AccountRegistrationTest ****");
 	}
 }

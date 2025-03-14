@@ -14,11 +14,11 @@ public class AccountRegistrationPage extends BasePage{
 	{
 		super(driver);
 	}
-@FindBy(xpath="//input[@id='input-firstname']") 
+@FindBy(xpath="//input[@id='input-firstname']")
 WebElement txtFirstname;
-@FindBy(xpath="//input[@id='input-lastname']") 
+@FindBy(xpath="//input[@id='input-lastname']")
 WebElement txtLastname;
-@FindBy(xpath="//input[@id='input-email']") 
+@FindBy(xpath="//input[@id='input-email']")
 WebElement txtEmail;
 @FindBy(xpath="//input[@id='input-telephone']")
 WebElement txtTelephone;
@@ -33,6 +33,7 @@ WebElement togglePolicy;
 WebElement btnContinue;
 @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 WebElement msgConfirmation;
+
 public void setFirstName(String fname) {
 	txtFirstname.sendKeys(fname);
 }
@@ -42,7 +43,7 @@ public void setLastName(String lname) {
 public void setEmail(String email) {
 	txtEmail.sendKeys(email);
 }
-	public void setTelephone(String tel){
+public void setTelephone(String tel){
 	txtTelephone.sendKeys(tel);
 }
 public void setPassword(String pwd) {
@@ -62,24 +63,24 @@ public void setPrivacyPolicy() {
 public void clickContinue() {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-	//sol1 
+	//sol1
 	//btnContinue.click();
 
-	//sol2 
+	//sol2
 	//btnContinue.submit();
-	
+
 	//sol3
 	//Actions act=new Actions(driver);
 	//act.moveToElement(btnContinue).click().perform();
-				
+
 	//sol4
 	JavascriptExecutor js=(JavascriptExecutor)driver;
 	js.executeScript("arguments[0].click();", btnContinue);
-	
+
 	//Sol 5
 	//btnContinue.sendKeys(Keys.RETURN);
-	
-	//Sol6  
+
+	//Sol6
 	//WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	//mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
 }

@@ -1,8 +1,12 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HomePage extends BasePage {
 	public HomePage(WebDriver driver) {
@@ -17,8 +21,8 @@ public class HomePage extends BasePage {
 	WebElement lnkLogin;
 	@FindBy(xpath="//input[@placeholder='Search']")
 	WebElement txtSearchbox;
+	//@FindBy(xpath="//button[@type='submit']")
 	@FindBy(xpath="//div[@id='search']//button[@type='button']")
-	//@FindBy(xpath="//button[@class='btn btn-light btn-lg']")
 	WebElement btnSearch;
 
 	public void clickMyAccount() {
