@@ -1,69 +1,60 @@
-OpenCart Automation Testing
+# OpenCart Automation Testing
 
-🛒 Selenium Automation Framework for OpenCart
+# 🛒 Selenium Automation Testing for OpenCart
 
-Automating end-to-end testing to ensure a reliable and high-quality e-commerce experience.
+**A Selenium automation project demonstrating end-to-end testing of an OpenCart e-commerce application.**
 
-This project is an automation testing framework developed for the OpenCart e-commerce website using Selenium WebDriver, Java, TestNG, Maven, and the Page Object Model (POM). It automates key user workflows, reduces manual testing effort, and improves regression testing efficiency.
+OpenCart Automation Testing is a Java-based automation testing project developed as part of Selenium learning. The project automates key user workflows of the OpenCart demo website using **Selenium WebDriver**, **Java**, **TestNG**, and the **Page Object Model (POM)** design pattern to ensure maintainable and reusable test scripts.
 
-✨ Features
+## ✨ Features
 
-- 🔐 User Registration & Login Automation
-- 🔍 Product Search & Filtering
-- 🛒 Add to Cart Functionality
-- 💳 Checkout Workflow Automation
-- 👤 My Account Management
-- ✅ End-to-End Test Scenarios
-- 🔄 Regression & Smoke Testing
-- 📄 TestNG Reports
-- 🏗️ Page Object Model (POM) Architecture
-- ⚡ Reusable Test Scripts
+- 🤖 Automated end-to-end test scenarios
+- 🛍️ Product search and browsing
+- 👤 User registration and login
+- 🛒 Shopping cart validation
+- ❤️ Wishlist functionality
+- 📦 Product detail verification
+- ✅ Checkout workflow validation
+- 📊 Test execution with TestNG
+- 🏗️ Page Object Model (POM) architecture
+- 📱 Cross-browser automation support
 
-📱 About the Project
+## 📱 About the Project
 
-The framework is designed to automate critical OpenCart functionalities and validate user workflows across the application. It follows the Page Object Model (POM) design pattern, making the test suite modular, maintainable, and easy to scale.
+This project was developed to gain hands-on experience in web automation testing using Selenium. It covers common e-commerce workflows and demonstrates best practices for building maintainable automation frameworks.
 
-It helps identify functional issues early, improves test coverage, and supports faster software releases through automated regression testing.
-
-🚀 How It Works
-
-1. Launch the OpenCart application.
-2. Execute automated test cases using TestNG.
-3. Perform user actions such as registration, login, product search, cart, and checkout.
-4. Validate expected results automatically.
-5. Generate execution reports for analysis.
-
-🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 - ☕ Java
-- 🧪 Selenium WebDriver
-- ✅ TestNG
+- 🤖 Selenium WebDriver
+- 🧪 TestNG
 - 📦 Maven
 - 🏗️ Page Object Model (POM)
-- 🌐 Git & GitHub
+- 💻 IntelliJ IDEA
 
-🎯 Why This Project?
+## 🚀 Test Scenarios
 
-- Automates repetitive testing tasks
-- Improves regression testing efficiency
-- Increases test coverage
-- Reduces manual testing effort
-- Provides reusable and maintainable test scripts
-- Supports reliable software releases
+- User Registration
+- User Login & Logout
+- Product Search
+- Add to Cart
+- Wishlist Management
+- Product Validation
+- Checkout Flow
+- UI Element Verification
 
-📂 Project Structure
+## 🌐 Test Website
 
-src/
- ├── pageObjects
- ├── testCases
- ├── utilities
- ├── resources
- └── testData
+**OpenCart Demo:** https://demo.opencart.com/
 
-📸 Screenshots
+## 🎯 Learning Outcomes
 
-Add screenshots of your project here.
+- Build Selenium automation frameworks
+- Implement Page Object Model (POM)
+- Create reusable test scripts
+- Execute automated regression tests
+- Improve test maintainability and readability
 
 ---
 
-«"Automation is not about replacing testers—it's about empowering quality with speed, accuracy, and confidence." 🚀»
+> **"Automating repetitive testing to deliver faster and more reliable software." 🤖✨
